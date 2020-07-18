@@ -153,7 +153,7 @@
 
     <div id="footer">
         <div>
-            <a href="#"><img src="../imgs/github.png"width="20px" height="20px" class="img-circle">&nbsp;&nbsp;GitHub</a>
+            <a href="https://github.com/ZhaoShiyi-gh/MyBlog"><img src="../imgs/github.png"width="20px" height="20px" class="img-circle">&nbsp;&nbsp;GitHub</a>
             &nbsp;|
             <a href="#">&nbsp;&nbsp;MyBlog</a>
             <br/>
