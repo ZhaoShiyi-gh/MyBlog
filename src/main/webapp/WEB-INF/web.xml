@@ -1,0 +1,151 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <filter>
+        <filter-name>CodeFilter</filter-name>
+        <filter-class>com.zhaosy.myblog.filter.CodeFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CodeFilter</filter-name>
+        <url-pattern>/codeFilter</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.LonginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AjaxLoginServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.AjaxLoginServerlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjaxLoginServlet</servlet-name>
+        <url-pattern>/ajaxLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/registerservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchInformationServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.SearchInformationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchInformationServlet</servlet-name>
+        <url-pattern>/searchInformationServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.AddArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <url-pattern>/addArticleServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FindCatalogServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.FindCatalogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindCatalogServlet</servlet-name>
+        <url-pattern>/findCatalogServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ShowArticleServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.ShowArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowArticleServlet</servlet-name>
+        <url-pattern>/showArticleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowAllServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.ShowAllServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowAllServlet</servlet-name>
+        <url-pattern>/showAllServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AjaxSpitServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.AjaxSpitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjaxSpitServlet</servlet-name>
+        <url-pattern>/ajaxSpitServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SplitPageServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.SplitPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SplitPageServlet</servlet-name>
+        <url-pattern>/splitPageServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.DeleteArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <url-pattern>/deleteArticleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BeforeAddarticleServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.BeforeAddarticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BeforeAddarticleServlet</servlet-name>
+        <url-pattern>/beforeAddarticleServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddNewCatalog</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.AddNewCatalog</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddNewCatalog</servlet-name>
+        <url-pattern>/addNewCatalog</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommentInsertServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.CommentInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommentInsertServlet</servlet-name>
+        <url-pattern>/commentInsertServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>com.zhaosy.myblog.servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/searchServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
