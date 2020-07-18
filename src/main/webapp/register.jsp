@@ -27,7 +27,7 @@
                     <div style="float: left;margin-left: 178px">
                     <%--<div style="display: inline">--%>
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="text" id="username" name="username" placeholder="请输入需要注册的名字">
+                        <input type="text" id="username" name="username" placeholder="请输入需要注册的名字" >
                     </div><span id="span1"></span></br>
                 </div>
 
